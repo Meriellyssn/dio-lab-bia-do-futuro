@@ -1,0 +1,14 @@
+[
+  {
+    "categoria_alvo": "alimentacao",
+    "gatilho": "Gasto excessivo com delivery ou restaurantes",
+    "dica_pratica": "Que tal testar a regra do '1 por 1'? Para cada refeição pedida por aplicativo, tente preparar a próxima em casa.",
+    "impacto_estimado": "Economia média de 30% na categoria durante o mês."
+  },
+  {
+    "categoria_alvo": "transporte",
+    "gatilho": "Gastos frequentes com aplicativos de mobilidade em trajetos curtos durante a semana.",
+    "dica_pratica": "Que tal substituir 2 corridas curtas na semana por uma caminhada? Além de economizar, faz bem para a saúde!",
+    "impacto_estimado": "Economia média de R$ 30 a R$ 50 por semana, acelerando a sua meta."
+  }
+]
