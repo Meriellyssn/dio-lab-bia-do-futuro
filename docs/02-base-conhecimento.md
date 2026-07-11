@@ -30,16 +30,10 @@ Os arquivos são carregados para a memória do sistema através de código em Py
 import pandas as pd
 import json
 
-# CSVs
-historico = pd.read_csv('data/historico_atendimento.csv')
-transacoes = pd.read_csv('data/transacoes.csv')
-
-# JSONs
-with open('data/perfil_usuario.json', 'r', encoding='utf-8') as f:
-  perfil = json.load(f)
-
-with open('data/dicas_economia.json', 'r', encoding='utf-8') as f:
-  dicas = json.load(f)
+perfil = json.load(open('../data/perfil_usuario.json'))
+transacoes = pd.read_csv('../data/transacoes.csv')
+historico = pd.read_csv('../data/historico.csv')
+dicas = json.load(open('../data/dicas_economia.json'))
 ```
 
 ### Como os dados são usados no prompt?
