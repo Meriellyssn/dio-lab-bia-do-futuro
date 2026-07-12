@@ -1,6 +1,6 @@
 # Passo a passo de execução
 
-##Setup do Ollama
+## Setup do Ollama
 
 ```bash
 #1. Instalar o Ollama (ollama.com)
@@ -12,10 +12,10 @@ ollama run gpt-oss "Olá!"
 
 ```
 
-##Código completo
+## Código completo
 Todo código-fonte esta no arquivo `app.py`
 
-##Como rodar
+## Como rodar
 ```bash
 #1. Instalar dependecias
 pip install -r requirements.txt
