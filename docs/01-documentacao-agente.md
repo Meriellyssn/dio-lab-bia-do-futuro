@@ -63,7 +63,7 @@ flowchart TD
 | Componente | Descrição |
 |------------|-----------|
 | Interface | Streamlit (para interação via chat e entrada de dados manuais)|
-| LLM | Ollama (rodando localmente para garantir privacidade) |
+| LLM | Google Gemini |
 | Base de Conhecimento | Arquivos JSON/CSV mockados simulando extratos e metas na pasta `data`|
 
 ---
